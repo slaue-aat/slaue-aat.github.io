@@ -12,7 +12,3 @@ Aether Advanced Technology specializes in delivering comprehensive, end-to-end a
 ***
 
 This site is undergoing renovation.
-
-## Contact
-
-sales: ale@aetheradvancedtech.com
