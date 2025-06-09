@@ -25,172 +25,189 @@
             }
             </script>
     </head>
-    <body class="is-preload">
-        <!-- Sidebar -->
-        <section id="sidebar">
-            <div class="inner">
-                <nav>
-                    <ul>
-                        <li><a href="#intro">Welcome</a></li>
-                        <li><a href="#one">About</a></li>
-                        <li><a href="#two">Experience</a></li>
-                        <li><a href="#three">Services</a></li>
-                        <li><a href="#four">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </section>
-
-        <div id="wrapper">
-            <!-- Intro -->
-            <section id="intro" class="wrapper style4 fullscreen fade-up">
+    <body class="is-preload" onload="hideLoader()">
+        <div id="loader"></div>
+        <div id="load-wrapper">
+            
+            <!-- Sidebar -->
+            <section id="sidebar">
                 <div class="inner">
-                    <img id="welcome_logo" src="./images/AAT_logo_full.png" alt="AAT Logo">
-                    <br><br>
-                    <p>Your trusted partner in delivering state-of-the-art, AI-driven computer vision solutions.</p>
-                    <p>Our expert team empowers businesses across diverse industries to streamline operations, automate complex processes, boost efficiency, and significantly enhance accuracy and productivity with advanced machine learning, intelligent automation, and real-time analytics. Discover transformative computer vision technology tailored specifically to your business needs.</p>
-                    <ul class="actions">
-                        <li><a href="#one" class="button scrolly">Learn more</a></li>
-                    </ul>
-                </div>
-            </section>
-
-            <!-- About Us -->
-            <section id="one" class="wrapper style1-alt spotlights">
-                <section>
-                    <img id="about_us_logo_top" src="images/AAT_logo_half_top.png" alt="AAT Logo"/>
-                    <div class="content">
-                        <div class="inner">
-                            <h2>About Us</h2>
-                            <p>Founded by experienced machine learning and computer vision engineers, Aether Advanced Tech specializes in AI solutions with expertise in industrial automation. Our team has successfully developed advanced robotic vision systems, object detection models, and real-time AI applications across logistics, manufacturing, and beyond.</p>
-                            <p>We deliver reliable, innovative solutions tailored to your unique business challenges.</p>
-                            <ul class="actions">
-                                <li><a href="#two" class="button scrolly">our experience</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <a id="about_us_logo_right" href="#" class="image"><img src="images/AAT_logo_half_right.png" alt="AAT Logo"/></a>
-                </section>
-            </section>
-
-            <!-- Examples -->
-            <section id="two" class="wrapper style1 spotlights">
-                <section>
-                    <a href="#" class="image"><img src="images/track_class_cropped.png" alt="" data-position="top center" /></a>
-                    <div class="content">
-                        <div class="inner">
-                            <h2>Real-Time Object Detection & Tracking</h2>
-                            <p>Precise, real-time identification and tracking of objects across video streams or live camera feeds, optimizing operational workflows, security monitoring, and inventory management.</p>
-                            
-                            <h3>Applications</h3>
-                            <ul>
-                                <li>Retail inventory tracking and automated shelf restocking.</li>
-                                <li>Warehouse logistics for improved sorting accuracy.</li>
-                                <li>Security and surveillance for detecting unusual activities in real-time.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
-
-                <section>
-                    <a href="#" class="image"><img src="images/segment_class_cropped.png" alt="" data-position="center center" /></a>
-                    <div class="content">
-                        <div class="inner">
-                            <h2>Custom Image Segmentation & Analysis</h2>
-                            <p>Advanced AI-powered segmentation techniques that identify and analyze precise image regions, enabling automated quality control, medical diagnostics, and targeted image analysis.</p>
-                            
-                            <h3>Applications</h3>
-                            <ul>
-                                <li>Industrial quality inspection detecting manufacturing defects.</li>
-                                <li>Medical imaging for automated diagnostic assistance.</li>
-                                <li>Agricultural technology for crop health monitoring.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
-
-                <section>
-                    <a href="#" class="image"><img src="images/robot_example_cropped.png" alt="" data-position="bottom center" /></a>
-                    <div class="content">
-                        <div class="inner">
-                            <h2>AI-Powered 3D Robotic Vision</h2>
-                            <p>Custom-built computer vision systems tailored specifically for robotic automation, enabling accurate picking, sorting, assembly, and navigation in complex environments.</p>
-                            
-                            <h3>Applications</h3>
-                            <ul>
-                                <li>Robotic bin-picking and item sorting in warehouses.</li>
-                                <li>Precise inspection in manufacturing environments.</li>
-                                <li>Product dimensioning along conveyors and assembly lines.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
-            </section>
-
-            <!-- Services -->
-            <section id="three" class="wrapper style2 fade-up">
-                <div class="inner">
-                    <h2>Our Complete Offerings</h2>
-                    <p>We specialize in transforming cutting-edge AI technology into practical, scalable, and high-impact solutions for our clients.</p>
-                    <p>Here's how Aether Advanced Technology can help elevate your business:</p> 
-
-                    <div class="features">
-                        <section>
-                            <span class="icon solid major fa-map"></span>
-                            <h3>AI Strategy & Roadmap</h3>
-                            <p>Strategic guidance and expert planning for effectively integrating AI-driven computer vision into your business.</p>
-                        </section>
-                        <section>
-                            <span class="icon solid major fa-bolt"></span>
-                            <h3>Rapid Prototyping</h3>
-                            <p>Accelerated development of computer vision proof-of-concepts (POC) to quickly validate ideas and minimize investment risk.</p>
-                        </section>
-                        <section>
-                            <span class="icon solid major fa-cubes"></span>
-                            <h3>Custom Model Development</h3>
-                            <p>Tailored, industry-specific computer vision and deep learning solutions precisely engineered to meet your unique business requirements.</p>
-                        </section>
-                        <section>
-                            <span class="icon solid major fa-server"></span>
-                            <h3>Deployment & Integration</h3>
-                            <p>Seamless integration of advanced AI and computer vision models into your existing technology stack, ensuring reliable performance and scalability.</p>
-                        </section>
-                        <section>
-                            <span class="icon solid major fa-chart-line"></span>
-                            <h3>Ongoing Optimization</h3>
-                            <p>Proactive monitoring, analytics-driven optimization, and continuous performance improvements to maximize ROI of your AI investments.
-                            </p>
-                        </section>
-                        <section>
-                            <span class="icon solid major fa-headset"></span>
-                            <h3>Technical Support</h3>
-                            <p>Reliable, responsive troubleshooting and comprehensive technical assistance, ensuring optimal uptime and smooth operation of your AI systems.</p>
-                        </section>
-                    </div>
-                </div>
-            </section>
-                
-            <!-- Contact -->
-            <section id="four" class="wrapper style3 fade-up">
-                <div class="inner">
-                    <h2>Contact</h2>
-                    <p>Looking to automate processes, improve accuracy, and scale with AI? Contact our computer vision consultants today to explore tailored solutions for your business.</p>
-                    <section>
-                        <ul class="contact">
-                            <li>
-                                <h3>Email</h3>
-                                <a href="#">sales@aetheradvancedtechnology.com</a>
-                            </li>
+                    <nav>
+                        <ul>
+                            <li><a href="#intro" id="welcome_link">Welcome</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#experience">Experience</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#contact">Contact</a></li>
                         </ul>
+                    </nav>
+                </div>
+            </section>
+
+            <div id="wrapper">
+                <!-- Intro -->
+                <section id="intro" class="wrapper style4 fullscreen fade-up">
+                    <div class="inner">
+                        <img id="welcome_logo" src="./images/AAT_logo_full.png" alt="AAT Logo">
+                        <br><br>
+                        <p>Your trusted partner in delivering state-of-the-art, AI-driven computer vision solutions.</p>
+                        <p>Our expert team empowers businesses across diverse industries to streamline operations, automate complex processes, boost efficiency, and significantly enhance accuracy and productivity with advanced machine learning, intelligent automation, and real-time analytics. Discover transformative computer vision technology tailored specifically to your business needs.</p>
+                        <ul class="actions">
+                            <li><a href="#about" class="button scrolly">Learn more</a></li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- About Us -->
+                <section id="about" class="wrapper style1-alt spotlights">
+                    <section>
+                        <img id="about_us_logo_top" src="images/AAT_logo_half_top.png" alt="AAT Logo"/>
+                        <div class="content">
+                            <div class="inner">
+                                <h2>About Us</h2>
+                                <p>Founded by experienced machine learning and computer vision engineers, Aether Advanced Tech specializes in AI solutions with expertise in industrial automation. Our team has successfully developed advanced robotic vision systems, object detection models, and real-time AI applications across logistics, manufacturing, and beyond.</p>
+                                <p>We deliver reliable, innovative solutions tailored to your unique business challenges.</p>
+                                <ul class="actions">
+                                    <li><a href="#experience" class="button scrolly">our experience</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <a id="about_us_logo_right" href="#" class="image"><img src="images/AAT_logo_half_right.png" alt="AAT Logo"/></a>
+                    </section>
+                </section>
+
+                <!-- Examples -->
+                <section id="experience" class="wrapper style1 spotlights">
+                    <section>
+                        <a href="#" class="image"><img src="images/track_class_cropped.png" alt="" data-position="top center" /></a>
+                        <div class="content">
+                            <div class="inner">
+                                <h2>Real-Time Object Detection & Tracking</h2>
+                                <p>Precise, real-time identification and tracking of objects across video streams or live camera feeds, optimizing operational workflows, security monitoring, and inventory management.</p>
+                                
+                                <h3>Applications</h3>
+                                <ul>
+                                    <li>Retail inventory tracking and automated shelf restocking.</li>
+                                    <li>Warehouse logistics for improved sorting accuracy.</li>
+                                    <li>Security and surveillance for detecting unusual activities in real-time.</li>
+                                </ul>
+
+                                <ul class="actions">
+                                    <li><a href="#segmentation-examples" class="button scrolly">More Experience</a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </section>
 
-                    <ul class="menu">
-                        <li>&copy; Aether Advanced Technology. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-                    </ul>
-                </div>
-            </section>
+                    <section id="segmentation-examples">
+                        <a href="#" class="image"><img src="images/segment_class_cropped.png" alt="" data-position="center center" /></a>
+                        <div class="content">
+                            <div class="inner">
+                                <h2>Custom Image Segmentation & Analysis</h2>
+                                <p>Advanced AI-powered segmentation techniques that identify and analyze precise image regions, enabling automated quality control, medical diagnostics, and targeted image analysis.</p>
+                                
+                                <h3>Applications</h3>
+                                <ul>
+                                    <li>Industrial quality inspection detecting manufacturing defects.</li>
+                                    <li>Medical imaging for automated diagnostic assistance.</li>
+                                    <li>Agricultural technology for crop health monitoring.</li>
+                                </ul>
 
+                                <ul class="actions">
+                                    <li><a href="#3d-examples" class="button scrolly">More Experience</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="3d-examples">
+                        <a href="#" class="image"><img src="images/robot_example_cropped.png" alt="" data-position="bottom center" /></a>
+                        <div class="content">
+                            <div class="inner">
+                                <h2>AI-Powered 3D Robotic Vision</h2>
+                                <p>Custom-built computer vision systems tailored specifically for robotic automation, enabling accurate picking, sorting, assembly, and navigation in complex environments.</p>
+                                
+                                <h3>Applications</h3>
+                                <ul>
+                                    <li>Robotic bin-picking and item sorting in warehouses.</li>
+                                    <li>Precise inspection in manufacturing environments.</li>
+                                    <li>Product dimensioning along conveyors and assembly lines.</li>
+                                </ul>
+
+                                <ul class="actions">
+                                    <li><a href="#services" class="button scrolly">Complete Offerings</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+
+                <!-- Services -->
+                <section id="services" class="wrapper style2 fade-up">
+                    <div class="inner">
+                        <h2>Our Complete Offerings</h2>
+                        <p>We specialize in transforming cutting-edge AI technology into practical, scalable, and high-impact solutions for our clients.</p>
+                        <p>Here's how Aether Advanced Technology can help elevate your business:</p> 
+
+                        <div class="features">
+                            <section>
+                                <span class="icon solid major fa-map"></span>
+                                <h3>AI Strategy & Roadmap</h3>
+                                <p>Strategic guidance and expert planning for effectively integrating AI-driven computer vision into your business.</p>
+                            </section>
+                            <section>
+                                <span class="icon solid major fa-bolt"></span>
+                                <h3>Rapid Prototyping</h3>
+                                <p>Accelerated development of computer vision proof-of-concepts (POC) to quickly validate ideas and minimize investment risk.</p>
+                            </section>
+                            <section>
+                                <span class="icon solid major fa-cubes"></span>
+                                <h3>Custom Model Development</h3>
+                                <p>Tailored, industry-specific computer vision and deep learning solutions precisely engineered to meet your unique business requirements.</p>
+                            </section>
+                            <section>
+                                <span class="icon solid major fa-server"></span>
+                                <h3>Deployment & Integration</h3>
+                                <p>Seamless integration of advanced AI and computer vision models into your existing technology stack, ensuring reliable performance and scalability.</p>
+                            </section>
+                            <section>
+                                <span class="icon solid major fa-chart-line"></span>
+                                <h3>Ongoing Optimization</h3>
+                                <p>Proactive monitoring, analytics-driven optimization, and continuous performance improvements to maximize ROI of your AI investments.
+                                </p>
+                            </section>
+                            <section>
+                                <span class="icon solid major fa-headset"></span>
+                                <h3>Technical Support</h3>
+                                <p>Reliable, responsive troubleshooting and comprehensive technical assistance, ensuring optimal uptime and smooth operation of your AI systems.</p>
+                            </section>
+                        </div>
+                    </div>
+                </section>
+                    
+                <!-- Contact -->
+                <section id="contact" class="wrapper style3 fade-up">
+                    <div class="inner">
+                        <h2>Contact</h2>
+                        <p>Looking to automate processes, improve accuracy, and scale with AI? Contact our computer vision consultants today to explore tailored solutions for your business.</p>
+                        <section>
+                            <ul class="contact">
+                                <li>
+                                    <h3>Email</h3>
+                                    <a href="#">sales@aetheradvancedtechnology.com</a>
+                                </li>
+                            </ul>
+                        </section>
+
+                        <ul class="menu">
+                            <li>&copy; Aether Advanced Technology. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                        </ul>
+                    </div>
+                </section>
+
+            </div>
         </div>
+
 
         <!-- Scripts -->
         <script src="assets/js/jquery.min.js"></script>
@@ -200,6 +217,26 @@
         <script src="assets/js/breakpoints.min.js"></script>
         <script src="assets/js/util.js"></script>
         <script src="assets/js/main.js"></script>
+        
+        <script>
+        var _;
+        var loaderDelay = 1000;
+        var showContentDelay = 500;
+
+        function hideLoader() {
+            _ = setTimeout(showPage, loaderDelay);
+        }
+
+        function showPage() {
+            document.getElementById("loader").style.display = "none";
+            document.getElementById("load-wrapper").style.display = "block";
+            document.getElementById("welcome_link").classList.add("active");
+
+            setTimeout(function(){
+                document.getElementById("intro").classList.remove("inactive");
+            }, showContentDelay);            
+        }
+        </script>
 
     </body>
 </html>
